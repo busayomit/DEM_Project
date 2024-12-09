@@ -1,4 +1,4 @@
-set terminal pngcairo size 1280,720 enhanced font 'Arial,14'
+set terminal pngcairo size 1280,720 enhanced font 'Arial,14'  # Use a high-quality PNG output with specified dimensions and font
 set output 'falling_disc_energy.png'
 
 set title "Energy Dissipation of falling disc over Time"
@@ -8,7 +8,7 @@ set grid
 set key outside
 
 # Initial total energy (E0) from the first line of data
-E0 = 294.41318  # <-- Replace this with your actual initial total energy from column 5
+E0 = 294.41318  # <-- This is the actual initial total energy I got from column 5
 
 # Y2 axis for energy
 set ytics nomirror
