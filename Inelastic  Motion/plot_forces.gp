@@ -7,6 +7,6 @@ set ylabel "Force (N)"
 set grid
 set key outside
 
-plot "sim_data_dissipation" using 1:2 with lines title "Height vs Time", \
+plot "sim_data_adaptive.tx" using 1:2 with lines title "Height vs Time", \
      "sim_data_adaptive.tx" using 1:9 with lines title "Net Force", \
      "sim_data_adaptive.tx" using 1:10 with lines title "Contact Force"
