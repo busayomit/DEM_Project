@@ -16,13 +16,13 @@ if [ $? -ne 0 ]; then
 fi
 echo "Simulation completed!"
 
-echo "Generating the dissipation plot..."
-gnuplot ./plot_adaptive.gp
+echo "Generating the velocity & delta plot..."
+gnuplot ./plot_velocity_delta.gp
 if [ $? -ne 0 ]; then
-  echo "Dissipation plotting failed!"
+  echo "Velocity & Delta plotting failed!"
   exit 1
 fi
-echo "Dissipation plot created!"
+echo "Velocity & Delta plot created!"
 
 echo "Generating the energy plot..."
 gnuplot ./plot_energy.gp

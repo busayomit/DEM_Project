@@ -1,7 +1,7 @@
 set terminal pngcairo size 1280,720 enhanced font 'Arial,14'
-set output 'Glass_particle_energy.png'
+set output 'falling_disc_energy.png'
 
-set title "Ball Energy Over Time with Height Context"
+set title "Energy Dissipation of falling disc over Time"
 set xlabel "Time (s)"
 set ylabel "Height (m)"
 set grid

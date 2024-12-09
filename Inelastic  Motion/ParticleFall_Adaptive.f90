@@ -103,7 +103,7 @@ PROGRAM ParticleFall_Adaptive
   END DO
 
   PRINT *, "Simulation finished. Data in ", filename
-  CALL SYSTEM('gnuplot ./plot_dissipation.gp')
+  CALL SYSTEM('gnuplot ./plot_velocity_delta.gp')
   CALL SYSTEM('gnuplot ./plot_energy.gp')
   CALL SYSTEM('gnuplot ./plot_forces.gp')
 

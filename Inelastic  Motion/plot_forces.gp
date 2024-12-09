@@ -1,7 +1,7 @@
 set terminal pngcairo size 1280,720 enhanced font 'Arial,14'
-set output 'Glass_particle_forces.png'
+set output 'falling_disc_forces.png'
 
-set title "Forces on the Ball Over Time"
+set title "Forces on the disc over time"
 set xlabel "Time (s)"
 set ylabel "Force (N)"
 set grid

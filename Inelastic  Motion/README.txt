@@ -16,7 +16,7 @@ On Linux
 2. Run the Simulation:
    - Open the terminal in VS Code.
    - Run the following command:
-     ./run_simulation.sh
+     ./run_adaptive.sh
    - The script will run the simulation and generate plots.
 
 ---
@@ -41,7 +41,7 @@ On Windows
 3. Run the Simulation:
    - Navigate to the project folder in WSL.
    - Run the script:
-     ./run_simulation.sh
+     ./run_adaptive.sh
 
 ---
 
@@ -62,7 +62,7 @@ Sous Linux
 2. Exécuter la Simulation :
    - Ouvrez le terminal dans VS Code.
    - Exécutez la commande suivante :
-     ./run_simulation.sh
+     ./run_adaptive.sh
    - Le script exécutera la simulation et générera des graphiques.
 
 ---
@@ -87,4 +87,4 @@ Sous Windows
 3. Exécuter la Simulation :
    - Accédez au dossier du projet dans WSL.
    - Lancez le script :
-     ./run_simulation.sh
+     ./run_adaptive.sh
